@@ -1,26 +1,17 @@
 console.log("Hello world");
 
 import express from 'express'
-import {pool} from './db.js'
+
+import employesRoutes from './routes/employes.routes.js'
+import indexRoutes from './routes/index.routes.js'
 
 const app = express()
 
-app.get('/employees',(req ,res) => res.send('Opteniendo empleado'))
-
-app.get('/ping', async (req,res) => {
-  const [result] =  await   pool.query('SELECT 1 + 1 AS result')
- res.json(result)
- });
+app.use(express.json)
 
 
-
-app.post('/employees',(req ,res) => res.send('Creando empleado'))
-
-
-app.put('/employees',(req ,res) => res.send('actualizando empleado'))
-
-
-app.delete('/employees',(req ,res) => res.send('Eliminando empleado'))
+app.use(employesRoutes)
+app.use(indexRoutes)
 app.listen(3000)
 
 console.log('Server running in 3000')
