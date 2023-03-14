@@ -1,13 +1,13 @@
-console.log("Hello world");
+
 
 import express from 'express'
 
 import employesRoutes from './routes/employes.routes.js'
-import indexRoutes from './routes/index.routes.js'
+import indexRoutes from './routes/index.routers.js'
 
 const app = express()
 
-app.use(express.json)
+app.use(express.json())
 
 
 app.use(employesRoutes)

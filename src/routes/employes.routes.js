@@ -5,7 +5,8 @@ const router = Router()
 
 
 
-router.get('/employees',getEmployees)
+router.get('/employees', (req,res ) => res.send('Hola'))
+   // getEmployees)
 
 router.post('/employees',createEmployee)
 

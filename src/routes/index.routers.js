@@ -6,9 +6,7 @@ const router = Router()
 
 
 
-
-
-app.get('/ping',ping);
+router.get('/ping',ping);
 
 
 export default router
