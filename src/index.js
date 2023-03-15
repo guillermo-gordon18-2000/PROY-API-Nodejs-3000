@@ -10,8 +10,8 @@ const app = express()
 app.use(express.json())
 
 
-app.use(employesRoutes)
-app.use(indexRoutes)
+app.use('/api',employesRoutes)
+app.use('/api',indexRoutes)
 app.listen(3000)
 
 console.log('Server running in 3000')
