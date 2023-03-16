@@ -1,23 +1,17 @@
 # PROY-API-Nodejs-3000
-Api Rest Nodejs 16.2
+
 
 
 <div align="center">
 
-  [![JavaScript Banner][banner]](DIRECTORY.md)
+#  Api Rest Node js 
 
-  [![Checks][checks]][actions]
-  [![Contributions Welcome][welcome]](CONTRIBUTING.md)
-  [![standard.js][standard-logo]][standard-js]
-  [![Discord chat][chat]][discord-server]
-
+[![NPM version][npm-image]][npm-url]
+  [![Version ](https://travis-ci.org/laravel/lumen-framework.svg)]()
+[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
   
 </div>
 
-[![Version ](https://travis-ci.org/laravel/lumen-framework.svg)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![NPM version][npm-image]][npm-url]
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
 
 
 
