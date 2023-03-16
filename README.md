@@ -3,7 +3,7 @@ Api Rest Nodejs 16.2
 
 [![Version ](https://travis-ci.org/laravel/lumen-framework.svg)]()
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[npm-url]: https://npmjs.org/package/js-to-java
+[![NPM version][npm-image]][npm-url]
 [![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
 
 
